@@ -1,6 +1,6 @@
 {
   "name": "@eimiveritas/explore-nodejs-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,9 +17,9 @@
     "prepublishOnly": "node prepublish.js && tsc",
     "release": "cross-env RELEASE_MODE=true np --no-tests"
   },
-  "engines" : { 
-    "npm" : ">=9.0.0",
-    "node" : ">=18.0.0"
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=18.0.0"
   },
   "keywords": [],
   "author": "eimiveritas",
