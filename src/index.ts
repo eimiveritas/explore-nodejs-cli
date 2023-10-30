@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import express from "express";
 import yargs from "yargs/yargs";
 import { Command } from "commander";
