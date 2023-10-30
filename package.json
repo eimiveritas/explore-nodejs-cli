@@ -17,6 +17,10 @@
     "prepublishOnly": "node prepublish.js && tsc",
     "release": "cross-env RELEASE_MODE=true np --no-tests"
   },
+  "engines" : { 
+    "npm" : ">=9.0.0",
+    "node" : ">=18.0.0"
+  },
   "keywords": [],
   "author": "eimiveritas",
   "license": "ISC",
